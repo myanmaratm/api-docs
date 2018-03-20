@@ -1,16 +1,17 @@
+
 # Myanmar ATM Api
 
 Myanmar atm api to fetch the atm location from the major cities of Myanmar.
 The API is [REST API](http://en.wikipedia.org/wiki/Representational_State_Transfer "RESTful") and currently, return format for all endpoints is [JSON](http://json.org/ "JSON").
 
 
-## Variable cheat sheet
-| Variable | DataType |Format|
-|--|--|--|
-| `bank_code` | `CHAR(3)` |`AYA`,`CB`,`AGD`,`UAB`,`KBZ`|
-| `latidude` | `float` |`16.775816`|
-| `longitude` | `float` |`2.775816`|
-| `distance_radius` | `INT` |`1`|
+## Parameter List
+| Name |param type| DataType |Format|
+|--|--|--|--|
+| `bank_code` |path parameter| `CHAR(3)` |`AYA`,`CB`,`AGD`,`UAB`,`KBZ`|
+| `latidude` |query parameter| `float` |`16.775816`|
+| `longitude` |query parameter| `float` |`2.775816`|
+| `distance_radius` |query parameter| `INT` |`1`|
 
 
 # Endpoint List
@@ -38,4 +39,7 @@ Myanmar ATM API currently returns data in  [JSON](http://json.org/ "JSON")  form
 ### What kind of authentication is required?
 
 Nope
+
+### [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+please email me at [winhtaikaung28@hotmail.com](winhtaikaung28@hotmail.com)
 
